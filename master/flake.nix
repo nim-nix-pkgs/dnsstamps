@@ -11,6 +11,7 @@
   inputs.src-dnsstamps-master.ref   = "refs/heads/master";
   inputs.src-dnsstamps-master.owner = "alaviss";
   inputs.src-dnsstamps-master.repo  = "dnsstamps";
+  inputs.src-dnsstamps-master.dir   = "";
   inputs.src-dnsstamps-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
